@@ -2,11 +2,10 @@
   "name": "product-showcase-backend",
   "version": "1.0.0",
   "description": "Fake product API using json-server",
-  "main": "index.js",
   "scripts": {
-    "start": "npx json-server --watch db.json --port 8080"
+    "start": "node ./node_modules/json-server/lib/cli/bin.js --watch db.json --port 8080"
   },
-  "dependencies": {
+  "devDependencies": {
     "json-server": "^1.0.0-beta.3"
   }
 }

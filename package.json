@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Fake product API using json-server",
   "scripts": {
-    "start": "node index.js"
+    "start": "npx json-server --watch db.json --port $PORT"
+
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.3"

@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Fake product API using json-server",
   "scripts": {
-   
     "start": "node index.js"
   },
   "dependencies": {
